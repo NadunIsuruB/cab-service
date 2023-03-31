@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace cab_service.Objects;
 
+//Cab Call Center Working As a Mediator
+
 internal interface ICabCallCenter
 {
     void Register(ICab cab);
