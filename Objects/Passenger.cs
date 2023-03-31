@@ -4,9 +4,4 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace cab_service.Objects
-{
-    internal class Passenger
-    {
-    }
-}
+namespace cab_service.Objects;
