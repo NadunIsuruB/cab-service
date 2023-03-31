@@ -23,6 +23,13 @@ internal class Cab : ICab
     int _currentLocation;
     bool _isActive;
 
+    public Cab(string name, int currentLocation, bool isActive)
+    {
+        _name = name;
+        _currentLocation = currentLocation;
+        _isActive = isActive;
+    }
+
     public string Name => _name;
 
     public int CurrentLocation => _currentLocation;

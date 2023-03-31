@@ -21,6 +21,14 @@ internal class Passenger : IPassenger
     string _name;
     string _dropLocation;
     int _location;
+
+    public Passenger(string name, string dropLocation, int location)
+    {
+        _name = name;
+        _dropLocation = dropLocation;
+        _location = location;
+    }
+
     public string Name => _name;
 
     public string DropLocation => _dropLocation;
