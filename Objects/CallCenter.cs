@@ -16,9 +16,9 @@ internal interface ICabCallCenter
 
 }
 
-internal class CabCallCenter : ICabCallCenter
+internal class CallCenter : ICabCallCenter
 {
-    private readonly Dictionary<string, ICab> cabs = new Dictionary<string, ICab>;
+    private readonly Dictionary<string, ICab> cabs = new Dictionary<string, ICab>();
 
     public void BookCab(IPassenger passenger)
     {
