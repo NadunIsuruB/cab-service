@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cab-service", "cab-service.csproj", "{B24E5B86-7553-4B16-9EC8-9D621DDC14A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B24E5B86-7553-4B16-9EC8-9D621DDC14A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B24E5B86-7553-4B16-9EC8-9D621DDC14A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B24E5B86-7553-4B16-9EC8-9D621DDC14A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B24E5B86-7553-4B16-9EC8-9D621DDC14A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90ABC6FE-30E8-486B-8484-B578985522FE}
+	EndGlobalSection
+EndGlobal
