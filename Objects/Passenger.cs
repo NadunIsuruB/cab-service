@@ -29,6 +29,6 @@ internal class Passenger : IPassenger
 
     public void Notification(ICab cab)
     {
-        Console.WriteLine($"your Cab is : {cab}, its Currently at {cab.CurrentLocation}");
+        Console.WriteLine($"your Cab is : {cab.Name}, its Currently at {cab.CurrentLocation}");
     }
 }
